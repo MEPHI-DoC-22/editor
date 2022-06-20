@@ -163,7 +163,7 @@
       </div>
 
       <div>
-        <p class="p-input__label">Начальная область по горизонтале:</p>
+        <p class="p-input__label">Начальная область по горизонтали:</p>
         <div class="d-flex">
           <input v-model.number="layout.xaxis.range[0]" v-bind:disabled="isDisabled(layout.disabled)" type="text" class="input-block">
           <input v-model.number="layout.xaxis.range[1]" v-bind:disabled="isDisabled(layout.disabled)" type="text" class="input-block">
@@ -171,7 +171,7 @@
       </div>
 
       <div>
-        <p class="p-input__label">Начальная область по горизонтале:</p>
+        <p class="p-input__label">Начальная область по вертикали:</p>
         <div class="d-flex">
           <input v-model.number="layout.yaxis.range[0]" v-bind:disabled="isDisabled(layout.disabled)" type="text" class="input-block">
           <input v-model.number="layout.yaxis.range[1]" v-bind:disabled="isDisabled(layout.disabled)" type="text" class="input-block">
